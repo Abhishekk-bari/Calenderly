@@ -1,11 +1,12 @@
 import React from 'react'
+import Navbar from './../app/components/NavBar';
 
 function index() {
   return (
-    <div>
-      <h1>Hello User</h1>
+    <div className="max-w-8xl ms-auto px-4 sm:px-6 lg:px-8">
+      <Navbar />
     </div>
   )
 }
 
-export default index
+export default index;
